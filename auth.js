@@ -28,7 +28,7 @@ if (loginForm) {
     if (user) {
       setCurrentUser(user);
       alert('Login successful!');
-      window.location.href = 'index.html';
+      window.location.href = 'store.html';
     } else {
       alert('Invalid username or password');
     }
@@ -54,6 +54,6 @@ if (registerForm) {
     saveUser(user);
     setCurrentUser(user);
     alert('Registration successful!');
-    window.location.href = 'index.html';
+    window.location.href = 'store.html';
   });
 }
