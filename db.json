@@ -1,0 +1,53 @@
+{
+  "users": [],
+  "books": [
+    {
+      "id": 1,
+      "title": "Eloquent JavaScript",
+      "author": "Marijn Haverbeke",
+      "price": 24.99,
+      "cover": "https://eloquentjavascript.net/img/cover.jpg",
+      "description": "A modern introduction to programming using JavaScript."
+    },
+    {
+      "id": 2,
+      "title": "You Don't Know JS (Yet)",
+      "author": "Kyle Simpson",
+      "price": 19.99,
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/81kqrwS1nNL.jpg",
+      "description": "A deep dive into JavaScript's core mechanisms."
+    },
+    {
+      "id": 3,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 32.50,
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX374_BO1,204,203,200_.jpg",
+      "description": "A handbook of agile software craftsmanship."
+    },
+    {
+      "id": 4,
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "price": 21.99,
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Jslint_logo_512x512_v2022.5.3_svg.svg/250px-Jslint_logo_512x512_v2022.5.3_svg.svg.png",
+      "description": "Unearth the best features of JavaScript and how to use them."
+    },
+    {
+      "id": 5,
+      "title": "Learning React",
+      "author": "Alex Banks & Eve Porcello",
+      "price": 29.99,
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/120px-React_Logo_SVG.svg.png",
+      "description": "Modern guide to building React applications."
+    },
+    {
+      "id": 6,
+      "title": "Python Crash Course",
+      "author": "Eric Matthes",
+      "price": 25.99,
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX377_BO1,204,203,200_.jpg",
+      "description": "A hands-on introduction to programming with Python."
+    }
+  ]
+}
