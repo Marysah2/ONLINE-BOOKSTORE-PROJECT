@@ -63,8 +63,21 @@ function renderList(list) {
     details.addEventListener('click', () =>
       alert(`${book.title}\\n\\nAuthor: ${book.author}\\n\\n${book.description || 'No description.'}`)
     );
+    const deleteBtn = document.createElement('button');
+    deleteBtn.textContent = 'Delete';
+    deleteBtn.style.background = 'red';
+    deleteBtn.style.color = 'white';
+    deleteBtn.addEventListener('click', () => deleteBook(book));
+    node.querySelector('.actions').appendChild(deleteBtn);
     booksEl.appendChild(node);
   });
+}
+
+function deleteBook(book) {
+  if (confirm(`Delete "${book.title}"?`)) {
+    allBooks = allBooks.filter(b => b.id !== book.id);
+    renderList(allBooks);
+  }
 }
 
 function addToCart(book) {
