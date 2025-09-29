@@ -4,7 +4,7 @@ function getCurrentUser() {
 }
 
 if (!getCurrentUser()) {
-  window.location.href = 'login.html';
+  window.location.href = 'index.html';
 }
 
 // Store functionality
@@ -24,7 +24,7 @@ usernameEl.textContent = user.name;
 // Logout functionality
 document.getElementById('logout').addEventListener('click', () => {
   localStorage.removeItem('currentUser');
-  window.location.href = 'login.html';
+  window.location.href = 'index.html';
 });
 
 // Cart functions
